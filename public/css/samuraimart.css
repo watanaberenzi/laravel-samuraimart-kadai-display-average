@@ -1,0 +1,255 @@
+body {
+    background-color: #f8fafc;
+    font-family: 'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.11px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+}
+
+big {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+caption {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-login-input {
+    border-radius: 2px;
+    border: solid 1px #b2b2b2;
+    background-color: #ffffff;
+}
+
+.samuraimart-check-label {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.samuraimart-require-input-label {
+    border-radius: 1px;
+    background-color: #e2001b;
+}
+
+.samuraimart-require-input-label-text {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.samuraimart-submit-button {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+.samuraimart-login-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0fbe9f;
+}
+
+.samuraimart-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.samuraimart-header-search-input {
+    border: solid 1px #e5e5e5;
+}
+
+.samuraimart-header-search-button {
+    background-color: #0fbe9f;
+}
+
+.samuraimart-header-search-icon {
+    color: #ffffff;
+}
+
+.samuraimart-header-fav-icon {
+    color: #191919;
+}
+
+.samuraimart-header-shoppingcart-icon {
+    color: #ffffff;
+}
+
+.samuraimart-favorite-button {
+    border-radius: 2px;
+    border: solid 1px #0fbe9f;
+    background-color: #ffffff;
+}
+
+.text-favorite {
+    color: #0fbe9f;
+}
+
+.samuraimart-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-favorite-add-cart {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+.review-score-color {
+    color: #0fbe9f;
+}
+
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+.samuraimart-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+}
+
+th, td {
+    background-color: #f8fafc !important;
+}
+
+.samuraimart-star-rating {
+    z-index: 0;
+    position: relative;
+    color:#cccccc; /* 空の星の色 */
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.samuraimart-star-rating::after {
+    color:#beac0f; /* 塗りつぶされた星の色 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.samuraimart-star-rating::before,
+.samuraimart-star-rating::after {
+    content: "★★★★★"; /* 星の表示 */
+}
+
+.samuraimart-star-rating[data-rate="5"]::after {
+    width: 100%; /* 5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="4.5"]::after {
+    width: 90%; /* 4.5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="4"]::after {
+    width: 80%; /* 4つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="3.5"]::after {
+    width: 70%; /* 3.5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="3"]::after {
+    width: 60%; /* 3つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="2.5"]::after {
+    width: 50%; /* 2.5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="2"]::after {
+    width: 40%; /* 2つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="1.5"]::after {
+    width: 30%; /* 1.5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="1"]::after {
+    width: 20%; /* 1つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="0.5"]::after {
+    width: 10%; /* 0.5つ星の幅 */
+}
+
+.samuraimart-star-rating[data-rate="0"]::after {
+    width: 0%; /* 星なしの幅 */
+}
